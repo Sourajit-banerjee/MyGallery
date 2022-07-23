@@ -1,0 +1,30 @@
+.imgIcon{
+    width:40%;
+    height:40%;
+    margin-bottom: 1rem;
+    border-color: #813AFE;
+}
+
+.btn-primary{
+    color:#fff;
+    background-color:#813AFE !important;
+    border-color:#813AFE !important;
+                                      
+}
+.reset{
+    color:  #ff2b67 !important;
+}
+
+.reset:hover{
+    color:#813AFE !important
+}
+
+#uploadBtn{
+    color:#fff;
+    background-color:#813AFE !important;
+    border-color:#813AFE !important;
+}
+
+#uploadBtn:hover{
+    background-color:#5d28b8 !important;
+}
