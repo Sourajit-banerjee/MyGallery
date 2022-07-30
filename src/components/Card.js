@@ -6,8 +6,8 @@ import { getCookie } from "../helpers/auth";
 const Card = (props) => {
   let { uploadDate,pageReload } = props;
   const token = getCookie("token");
-  uploadDate = new Date();
-  const dateUpload = uploadDate.toDateString();
+  let createDated = new Date(uploadDate);
+  const dateUpload = createDated.toDateString();
 
   console.log(props.slug)
 

@@ -88,7 +88,7 @@ const User = () => {
                 />
               );
             })
-          :<h2 >No images to show...</h2>}
+          :<h2 >No images to show....</h2>}
       </div>
     </>
   );
